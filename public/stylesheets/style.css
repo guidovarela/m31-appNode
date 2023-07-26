@@ -1,7 +1,19 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+/* 'Patua One' */
+
+.titles{
+    font-family: 'Patua One';
+    color: rgb(43, 43, 43);
+}
 
 .userInactivo{
     filter: grayscale(1)
 }
 .textareas{
     resize: none;
+}
+
+.color-basic{
+    color: #2a91d6;
 }

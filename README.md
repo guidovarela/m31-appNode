@@ -1,2 +1,2 @@
-# proyect-wm2021
-Proyecto final de NodeJS + HBS + Express + MySQL
+# M31 Electrónica
+Sitio web de la empresa

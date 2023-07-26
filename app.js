@@ -8,8 +8,9 @@ var hbs = require('hbs')
 //Listado de Rutas
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var contactoRouter = require('./routes/contacto');
 var productosRouter = require('./routes/productos');
+var serviciosRouter = require('./routes/servicios');
+var contactoRouter = require('./routes/contacto');
 var altaproductosRouter = require('./routes/altaProducto');
 var editarProd = require('./routes/editarProd')
 //formato de importacion de ES10 -> import {productoRouter} from './routes/productos.js'
@@ -32,8 +33,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 //ejecutar la ruta
 app.use('/', indexRouter);
 app.use('/usuarios', usersRouter);
-app.use('/contacto', contactoRouter);
+app.use('/servicios', serviciosRouter);
 app.use('/productos', productosRouter);
+app.use('/contacto', contactoRouter);
 app.use('/nuevo-producto', altaproductosRouter);
 app.use('/edit-prod', editarProd);
 
